@@ -25,7 +25,7 @@ st.markdown(
 
 st.header("Il tuo assistente di diritto costituzionale")
 
-st.image("RAG classe/Chatbot.webp", width=300)
+st.image("chatbot.webp", width=300)
 
 documento = "REAL CHATBOT/Costituzione_italiana.pdf"
 
