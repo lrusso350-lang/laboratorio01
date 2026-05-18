@@ -27,7 +27,7 @@ st.header("Il tuo assistente di diritto costituzionale")
 
 st.image("chatbot.webp", width=300)
 
-documento = "REAL CHATBOT/Costituzione_italiana.pdf"
+documento = "Costituzione_italiana.pdf"
 
 openai_api_key=st.secrets["OPENAI_API_KEY"]
 
