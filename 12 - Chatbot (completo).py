@@ -15,7 +15,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # Elenco di tutte le icone Streamlit:
 # https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
-st.set_page_config(page_title= "RagChatbot",
+st.set_page_config(page_title= "Chatbot",
                    page_icon=":classical_building:")
 
 # Personalizzazione colori:
@@ -25,7 +25,7 @@ st.markdown(
     <style>
     .stApp {
         background-color: #B84B4B;
-        color: #B1D4D8;
+        color: #fffff;
     }
     </style>
     """,
@@ -33,7 +33,7 @@ st.markdown(
 
 st.header("Assistenza online")
 
-st.image("REAL CHATBOT/Chatbot.webp", width=500)
+st.image("REAL CHATBOT/chatbot.webp", width=500)
 
 documento = "REAL CHATBOT/Costituzione_italiana.pdf"
 
